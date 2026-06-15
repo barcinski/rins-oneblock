@@ -1,4 +1,4 @@
-// return
+return
 document.write('<form>\
     <input name="s" type="radio" id="forsale" onchange="showForsale()"><label for="forsale">For Sale</label>\
     <input name="s" type="radio" id="archive" onchange="showSold()"><label for="archive">Archive</label>\

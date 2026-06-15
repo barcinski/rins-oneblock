@@ -13,7 +13,19 @@ body {
     padding-bottom: 2em;
 }
 
-.logo { height: 128px ; margin-top: 15px;margin-bottom: -25px;}
+.logo { height: 128px ; margin-top: 8px;margin-bottom: -25px;}
+
+#kat_left{
+    position: absolute; 
+    width: 3em;
+    transform: translate(-2.7em, -.3em);
+}
+
+#kat_right{
+    position: absolute; 
+    width: 3em;
+    transform: translate(-.25em, -.3em);
+}
 
 .navlink , .subnav{
     font-weight: 300;
@@ -28,7 +40,7 @@ thin {
 item > img , item > div , a.item > img{
    
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 
     height: 200px;
 }
@@ -127,7 +139,7 @@ iframe {
 
     .logo { 
         height: 78px; 
-        margin-top: 5px;
+        margin-top: 3px;
         margin-bottom: -15px;
     }
 
